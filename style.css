@@ -1,11 +1,28 @@
 body{
-    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    color: purple;
+#name{
+    font: "Helvetica";
+    font-size: 2em;
 }
 
-ul{
-    color: blue;
+.top-bar{
+    position: static;
+    background-color: grey;;
+    text-align: center;
+    color: white;
 }
+
+.inline-block{
+    padding: 5px;
+}
+
+a:visited{
+    color: white;
+}
+
+a{
+    padding-left: 200px;
+}
+
